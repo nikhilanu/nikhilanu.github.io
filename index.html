@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nikhil Anu — Software Engineer</title>
+  <meta name="description" content="Full-stack developer focused on React, Next.js, and FastAPI." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css" />
+  <meta property="og:title" content="Nikhil Anu — Software Engineer">
+  <meta property="og:description" content="Selected work, writing, and contact.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nikhilanu.github.io">
+  <meta property="og:image" content="https://nikhilanu.github.io/og.png">
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <header class="container site-header">
+    <nav class="nav">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="btn">Contact</a>
+    </nav>
+    <h1>Hi, I’m <span class="accent">Nikhil Anu</span>.</h1>
+    <p class="lede">I build fast, accessible web apps. Currently focused on React/Next.js, TypeScript, and FastAPI.</p>
+    <div class="badges">
+      <span>React</span><span>TypeScript</span><span>FastAPI</span><span>AWS</span>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="work" aria-label="Selected projects" class="grid">
+      <!-- Repeat project card -->
+      <article class="card reveal">
+        <img src="images/project1.jpg" alt="Screenshot of Project One" loading="lazy" width="1200" height="800">
+        <div class="card-body">
+          <h2>Project One</h2>
+          <p>Brief what/why: increased X by Y% for Z users.</p>
+          <ul class="meta">
+            <li>Role: Full-stack</li>
+            <li>Stack: Next.js, Node, Postgres</li>
+          </ul>
+          <div class="links">
+            <a href="#" target="_blank" rel="noopener">Live</a>
+            <a href="#" target="_blank" rel="noopener">Code</a>
+        </div></div>
+      </article>
+
+      <article class="card reveal">
+        <img src="images/project2.jpg" alt="Screenshot of Project Two" loading="lazy" width="1200" height="800">
+        <div class="card-body">
+          <h2>Project Two</h2>
+          <p>What you did + impact in one line.</p>
+          <ul class="meta">
+            <li>Role: Front-end</li>
+            <li>Stack: React, D3</li>
+          </ul>
+          <div class="links">
+            <a href="#" target="_blank" rel="noopener">Live</a>
+            <a href="#" target="_blank" rel="noopener">Code</a>
+        </div></div>
+      </article>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About</h2>
+      <p>Short bio (2–3 sentences). What you love building, domains you know, and how you like to work.</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <form action="https://formspree.io/f/yourid" method="POST">
+        <label>Name<input name="name" required></label>
+        <label>Email<input type="email" name="email" required></label>
+        <label>Message<textarea name="message" rows="5" required></textarea></label>
+        <button class="btn" type="submit">Send</button>
+      </form>
+      <p>Or email <a href="mailto:you@domain.com">you@domain.com</a></p>
+    </section>
+  </main>
+
+  <footer class="container site-footer">
+    <p>© <span id="year"></span> Your Name · <a href="https://github.com/youruser">GitHub</a> · <a href="https://www.linkedin.com/in/your-handle/">LinkedIn</a></p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
