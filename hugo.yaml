@@ -168,14 +168,14 @@ params:
           url: "https://www.manchester.ac.uk"
         date: "Sep 2023 – Sep 2024 · Manchester, UK"
         content: |-
-          Coursework: Machine Learning, Representation Learning, Text Mining, Data Engineering, Computer Vision. :contentReference[oaicite:10]{index=10}
+          Coursework: Machine Learning, Representation Learning, Text Mining, Data Engineering, Computer Vision. 
       - title: "B.Tech, Computer Science & Engineering (GPA 8.21/10)"
         school:
           name: "NIT Tiruchirappalli"
           url: "https://www.nitt.edu"
         date: "Aug 2017 – May 2021 · Tamil Nadu, India"
         content: |-
-          Coursework: DSA, OS, DBMS, Computer Networks, Data Mining/Warehousing, Software Engineering. :contentReference[oaicite:11]{index=11}
+          Coursework: DSA, OS, DBMS, Computer Networks, Data Mining/Warehousing, Software Engineering. 
 
   # Projects
   projects:
